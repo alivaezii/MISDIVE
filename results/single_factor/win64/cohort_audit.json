@@ -1,0 +1,95 @@
+{
+ "format": "win64",
+ "lines_total": 1280000,
+ "unique_total": 639993,
+ "exact_repeats_removed": 640007,
+ "fraction_submission_date_in_member_range": 0.9999896550475609,
+ "week_minus_week_id_counts": {
+  "1": 579993
+ },
+ "test_sha_overlap_with_training_archive_excluded": 0,
+ "test_sha_overlap_after_exclusion": 0,
+ "sha256_prefix_audit": {
+  "train_label0": {
+   "n": 200000,
+   "ks_uniform_stat": 0.1632698693490774,
+   "ks_uniform_p": 0.0,
+   "retained_at_0.2": 0.310495,
+   "retained_at_0.25": 0.37748,
+   "retained_at_0.4": 0.559445,
+   "retained_at_0.5": 0.660935
+  },
+  "train_label1": {
+   "n": 200000,
+   "ks_uniform_stat": 0.020275694534927613,
+   "ks_uniform_p": 7.45881146986122e-72,
+   "retained_at_0.2": 0.20902,
+   "retained_at_0.25": 0.26143,
+   "retained_at_0.4": 0.419965,
+   "retained_at_0.5": 0.51973
+  },
+  "validation_label0": {
+   "n": 30000,
+   "ks_uniform_stat": 0.2167216874344895,
+   "ks_uniform_p": 0.0,
+   "retained_at_0.2": 0.3468,
+   "retained_at_0.25": 0.42256666666666665,
+   "retained_at_0.4": 0.6130333333333333,
+   "retained_at_0.5": 0.7117333333333333
+  },
+  "validation_label1": {
+   "n": 30000,
+   "ks_uniform_stat": 0.027329044675826974,
+   "ks_uniform_p": 6.732293269495534e-20,
+   "retained_at_0.2": 0.21076666666666666,
+   "retained_at_0.25": 0.26543333333333335,
+   "retained_at_0.4": 0.42296666666666666,
+   "retained_at_0.5": 0.5251333333333333
+  },
+  "test_label0": {
+   "n": 59993,
+   "ks_uniform_stat": 0.2723291316651225,
+   "ks_uniform_p": 0.0,
+   "retained_at_0.2": 0.37982764655876516,
+   "retained_at_0.25": 0.462087243511743,
+   "retained_at_0.4": 0.6682446285399963,
+   "retained_at_0.5": 0.7699231577017319
+  },
+  "test_label1": {
+   "n": 60000,
+   "ks_uniform_stat": 0.025873132739216098,
+   "ks_uniform_p": 2.520448096811619e-35,
+   "retained_at_0.2": 0.21045,
+   "retained_at_0.25": 0.26306666666666667,
+   "retained_at_0.4": 0.42136666666666667,
+   "retained_at_0.5": 0.5250333333333334
+  }
+ },
+ "labels": {
+  "1": 290000,
+  "0": 289993
+ },
+ "file_types": {
+  "Win64": 579993
+ },
+ "per_split": {
+  "train": {
+   "files": 400000,
+   "malware": 200000,
+   "benign": 200000,
+   "malware_without_family": 38296
+  },
+  "validation": {
+   "files": 60000,
+   "malware": 30000,
+   "benign": 30000,
+   "malware_without_family": 6820
+  },
+  "test": {
+   "files": 119993,
+   "malware": 60000,
+   "benign": 59993,
+   "malware_without_family": 12729
+  }
+ }
+}

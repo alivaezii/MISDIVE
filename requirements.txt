@@ -1,0 +1,7 @@
+# Toolkit and reproduction of released results (versions used for the release QA in parentheses)
+numpy>=1.24        # (2.2.6)
+pandas>=2.0        # (2.3.3)
+pyarrow>=12        # (25.0.1)
+matplotlib>=3.7    # (3.10.9) optional: figures
+pytest>=7,<9       # (8.3.5) optional: tests; 9.2.0 fails under Python 3.10.0
+# Retraining and rescoring detectors additionally need the packages in experiments/single_factor/requirements.txt

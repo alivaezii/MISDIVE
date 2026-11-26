@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "misdive"
+version = "1.0.0"
+description = "MISDIVE: miss-diversity evaluation of detector pools (dependence, factorial attribution, robustness, diagnostics, operations, confirmation)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "pandas>=2.0", "pyarrow>=12"]
+
+
+[project.optional-dependencies]
+plots = ["matplotlib>=3.7"]
+test = ["pytest>=7,<9"]  # pytest 9.2.0 fails at collection under Python 3.10.0 (found in release QA)
+
+[tool.setuptools]
+packages = ["misdive"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", "tests"]
+markers = ["slow: reproduces released confirmatory results (minutes)"]

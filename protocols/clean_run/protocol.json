@@ -1,0 +1,75 @@
+{
+  "protocol_version": "1.0.0",
+  "title": "Shared feature views and common-mode misses in malware detection: clean-run protocol",
+  "status_of_evaluation_data": "The official .NET and Win64 test weeks (53-64) were examined once each in the original SENTRA project (timestamps in PROVENANCE.md). This clean run is a reproduction of those evaluations with complete deduplicated cohorts; it is not a blind confirmation.",
+  "dataset": {
+    "repository": "joyce8/EMBER2024",
+    "revision": "3d23efef7c0f0b702c5024400cfff4c3744a3832",
+    "licence": "Apache-2.0",
+    "archives": {
+      "dotnet": {"train": "Dot_Net_train.zip", "test": "Dot_Net_test.zip",
+                 "train_sha256": "b9f6e90ab75293a7ceb9339700586dd033a03d19766282755ee31dfa0836e625",
+                 "test_sha256": "b74c4181dbd77565fce16ba47c8ab0f7c7044ae6d880d859ec2c27365dea6299"},
+      "win64": {"train": "Win64_train.zip", "test": "Win64_test.zip",
+                "train_sha256": "7b050100ce7bd87149bbfca442de3e02d4bf97d51251566caec2581eebe799fd",
+                "test_sha256": "52a5a05c1bfa5bb021bb8b44c2e0afcf8983dfa1c6c0a9d76db393e5c682ce10"}
+    },
+    "challenge_set": "reserved; never downloaded"
+  },
+  "windows": {
+    "train_weeks": [1, 40],
+    "validation_weeks": [41, 46],
+    "unused_weeks": [47, 52],
+    "test_weeks": [53, 64],
+    "week_definition": "Training-archive member k (sorted by name) is week k; test-archive member k is week 52 + k. Verified against member date ranges, first_submission_date and week_id."
+  },
+  "cohorts": {
+    "sampling": "none: all unique files in each window are used",
+    "deduplication": "exact SHA256 records collapsed to their first occurrence in chronological member order; test files whose SHA256 occurs anywhere in the training archive (weeks 1-52) are excluded",
+    "labels": "label field in {0, 1}; any other value excluded and counted",
+    "family": "ClarAVy family field; missing values retained and treated as singleton clusters in the bootstrap"
+  },
+  "features": {
+    "extractor": "thrember.PEFeatureExtractor (EMBER feature version 3, 2568 columns), commit 0ef753e81d98bf209f71b03cd331dfc190b5b54d",
+    "views_file": "configs/feature_views.json",
+    "preprocessing": "signed log1p, then z-score with training-row statistics, columns with training std <= 1e-6 removed, values clipped to [-20, 20]; fitted on training rows only, per file type",
+    "storage_dtype": "float16 for preprocessed arrays (computation in float32)"
+  },
+  "model": {
+    "architecture": "two independent MLP branches (input -> 64 -> ReLU -> 32 -> ReLU -> 1); branch S reads the structural view, branch C the content view",
+    "loss": "sum of the two branch binary cross-entropies with positive-class weight n_benign / n_malware (the branches share no parameters, so their gradients are independent)",
+    "optimiser": "Adam, learning rate 1e-3, weight decay 1e-5, batch size 512",
+    "epochs": 25,
+    "patience": 5,
+    "early_stopping": "patience 5 on validation OR-system TPR at 1% system FPR with jointly optimised thresholds (51-point grid); weights of the best epoch restored",
+    "seeds": [42, 123, 2026],
+    "batch_order": "torch.randperm with generator seed = 1000 * seed + epoch"
+  },
+  "calibration": {
+    "branch_nominal_fpr": 0.005,
+    "rule": "threshold = floor(0.005 * N_benign)-th largest validation benign score; decision score > threshold (ties never flagged)",
+    "frozen_before_evaluation": true
+  },
+  "pairings": {
+    "seed_pairs": [[42, 123], [42, 2026], [123, 2026]],
+    "same_view": ["S_i + S_j", "C_i + C_j"],
+    "crossed_view": ["S_i + C_j", "C_i + S_j"]
+  },
+  "endpoints": {
+    "primary": "mean over seed pairs of [mean excess(SS, CC) - mean excess(SC, CS)] in percentage points, excess = J - q1*q2 computed per pairing on test malware",
+    "secondary": ["raw J per pairing", "q1, q2 per branch", "realised OR-system FPR on test benign files", "endpoint by week", "endpoint by seed pair"]
+  },
+  "inference": {
+    "method": "paired family-cluster bootstrap over test malware; the same resampled files enter every pairing; q1, q2 and J recomputed in each replicate; seed pairs averaged inside each replicate",
+    "replicates": 2000,
+    "rng_seed": 20261124,
+    "interval": "percentile 95%"
+  },
+  "decision_rule": {
+    "effect_of_interest_pp": 2.0,
+    "supported": "estimate >= 2 pp and 95% interval entirely above 0",
+    "ruled_out": "upper 95% bound < 2 pp",
+    "otherwise": "practical size unresolved"
+  },
+  "scope": "Error dependence at fixed branch thresholds. No detection-superiority claim is made without an equal-system-FPR comparison."
+}

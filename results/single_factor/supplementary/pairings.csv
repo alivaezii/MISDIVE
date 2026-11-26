@@ -1,0 +1,241 @@
+window,models,operating_point,seed_pair,type,branch_1,branch_2,J,q1,q2,excess,joint_misses,system_fpr,system_fp,tau
+W1 .NET weeks 47-52 (Phase 0 dev-test),MLP semantic (E04),frozen branch thresholds (0.5%),42-123,same,S_42,S_123,0.329,0.352133,0.365333,0.200354,4935,0.00513333,77,
+W1 .NET weeks 47-52 (Phase 0 dev-test),MLP semantic (E04),frozen branch thresholds (0.5%),42-123,same,C_42,C_123,0.398933,0.446133,0.466,0.191035,5984,0.0058,87,
+W1 .NET weeks 47-52 (Phase 0 dev-test),MLP semantic (E04),frozen branch thresholds (0.5%),42-123,crossed,S_42,C_123,0.228667,0.352133,0.466,0.0645725,3430,0.00826667,124,
+W1 .NET weeks 47-52 (Phase 0 dev-test),MLP semantic (E04),frozen branch thresholds (0.5%),42-123,crossed,C_42,S_123,0.230333,0.446133,0.365333,0.067346,3455,0.00733333,110,
+W1 .NET weeks 47-52 (Phase 0 dev-test),MLP semantic (E04),frozen branch thresholds (0.5%),42-2026,same,S_42,S_2026,0.332867,0.352133,0.3706,0.202366,4993,0.00533333,80,
+W1 .NET weeks 47-52 (Phase 0 dev-test),MLP semantic (E04),frozen branch thresholds (0.5%),42-2026,same,C_42,C_2026,0.406267,0.446133,0.462467,0.199945,6094,0.00473333,71,
+W1 .NET weeks 47-52 (Phase 0 dev-test),MLP semantic (E04),frozen branch thresholds (0.5%),42-2026,crossed,S_42,C_2026,0.2228,0.352133,0.462467,0.0599501,3342,0.00753333,113,
+W1 .NET weeks 47-52 (Phase 0 dev-test),MLP semantic (E04),frozen branch thresholds (0.5%),42-2026,crossed,C_42,S_2026,0.234467,0.446133,0.3706,0.0691297,3517,0.0076,114,
+W1 .NET weeks 47-52 (Phase 0 dev-test),MLP semantic (E04),frozen branch thresholds (0.5%),123-2026,same,S_123,S_2026,0.3456,0.365333,0.3706,0.210207,5184,0.00513333,77,
+W1 .NET weeks 47-52 (Phase 0 dev-test),MLP semantic (E04),frozen branch thresholds (0.5%),123-2026,same,C_123,C_2026,0.405267,0.466,0.462467,0.189757,6079,0.00606667,91,
+W1 .NET weeks 47-52 (Phase 0 dev-test),MLP semantic (E04),frozen branch thresholds (0.5%),123-2026,crossed,S_123,C_2026,0.237,0.365333,0.462467,0.0680455,3555,0.00773333,116,
+W1 .NET weeks 47-52 (Phase 0 dev-test),MLP semantic (E04),frozen branch thresholds (0.5%),123-2026,crossed,C_123,S_2026,0.247067,0.466,0.3706,0.0743671,3706,0.0086,129,
+W2 .NET weeks 53-64 (official test),MLP semantic (E04),frozen branch thresholds (0.5%),42-123,same,S_42,S_123,0.2752,0.294367,0.301167,0.186547,8256,0.00540847,162,
+W2 .NET weeks 53-64 (official test),MLP semantic (E04),frozen branch thresholds (0.5%),42-123,same,C_42,C_123,0.343967,0.3909,0.410533,0.183489,10319,0.0055754,167,
+W2 .NET weeks 53-64 (official test),MLP semantic (E04),frozen branch thresholds (0.5%),42-123,crossed,S_42,C_123,0.188233,0.294367,0.410533,0.067386,5647,0.00771208,231,
+W2 .NET weeks 53-64 (official test),MLP semantic (E04),frozen branch thresholds (0.5%),42-123,crossed,C_42,S_123,0.184933,0.3909,0.301167,0.0672073,5548,0.00784562,235,
+W2 .NET weeks 53-64 (official test),MLP semantic (E04),frozen branch thresholds (0.5%),42-2026,same,S_42,S_2026,0.278067,0.294367,0.305833,0.18804,8342,0.00497446,149,
+W2 .NET weeks 53-64 (official test),MLP semantic (E04),frozen branch thresholds (0.5%),42-2026,same,C_42,C_2026,0.3507,0.3909,0.407367,0.19146,10521,0.00507462,152,
+W2 .NET weeks 53-64 (official test),MLP semantic (E04),frozen branch thresholds (0.5%),42-2026,crossed,S_42,C_2026,0.185367,0.294367,0.407367,0.0654515,5561,0.0072113,216,
+W2 .NET weeks 53-64 (official test),MLP semantic (E04),frozen branch thresholds (0.5%),42-2026,crossed,C_42,S_2026,0.188433,0.3909,0.305833,0.0688831,5653,0.00687744,206,
+W2 .NET weeks 53-64 (official test),MLP semantic (E04),frozen branch thresholds (0.5%),123-2026,same,S_123,S_2026,0.281767,0.301167,0.305833,0.18966,8453,0.00500785,150,
+W2 .NET weeks 53-64 (official test),MLP semantic (E04),frozen branch thresholds (0.5%),123-2026,same,C_123,C_2026,0.350933,0.410533,0.407367,0.183696,10528,0.005108,153,
+W2 .NET weeks 53-64 (official test),MLP semantic (E04),frozen branch thresholds (0.5%),123-2026,crossed,S_123,C_2026,0.1905,0.301167,0.407367,0.0678147,5715,0.0072113,216,
+W2 .NET weeks 53-64 (official test),MLP semantic (E04),frozen branch thresholds (0.5%),123-2026,crossed,C_123,S_2026,0.197533,0.410533,0.305833,0.0719786,5926,0.00681067,204,
+W1 .NET weeks 47-52 (Phase 0 dev-test),MLP random partition (E05),frozen branch thresholds (0.5%),42-123,same,R1_42,R1_123,0.254133,0.314667,0.283267,0.164999,3812,0.00633333,95,
+W1 .NET weeks 47-52 (Phase 0 dev-test),MLP random partition (E05),frozen branch thresholds (0.5%),42-123,same,R2_42,R2_123,0.3298,0.3786,0.3976,0.179269,4947,0.00646667,97,
+W1 .NET weeks 47-52 (Phase 0 dev-test),MLP random partition (E05),frozen branch thresholds (0.5%),42-123,crossed,R1_42,R2_123,0.228867,0.314667,0.3976,0.103755,3433,0.00786667,118,
+W1 .NET weeks 47-52 (Phase 0 dev-test),MLP random partition (E05),frozen branch thresholds (0.5%),42-123,crossed,R2_42,R1_123,0.216,0.3786,0.283267,0.108755,3240,0.0072,108,
+W1 .NET weeks 47-52 (Phase 0 dev-test),MLP random partition (E05),frozen branch thresholds (0.5%),42-2026,same,R1_42,R1_2026,0.2544,0.314667,0.2862,0.164342,3816,0.0064,96,
+W1 .NET weeks 47-52 (Phase 0 dev-test),MLP random partition (E05),frozen branch thresholds (0.5%),42-2026,same,R2_42,R2_2026,0.3094,0.3786,0.404867,0.156117,4641,0.00626667,94,
+W1 .NET weeks 47-52 (Phase 0 dev-test),MLP random partition (E05),frozen branch thresholds (0.5%),42-2026,crossed,R1_42,R2_2026,0.241133,0.314667,0.404867,0.113735,3617,0.007,105,
+W1 .NET weeks 47-52 (Phase 0 dev-test),MLP random partition (E05),frozen branch thresholds (0.5%),42-2026,crossed,R2_42,R1_2026,0.214733,0.3786,0.2862,0.106378,3221,0.0074,111,
+W1 .NET weeks 47-52 (Phase 0 dev-test),MLP random partition (E05),frozen branch thresholds (0.5%),123-2026,same,R1_123,R1_2026,0.246533,0.283267,0.2862,0.165462,3698,0.0058,87,
+W1 .NET weeks 47-52 (Phase 0 dev-test),MLP random partition (E05),frozen branch thresholds (0.5%),123-2026,same,R2_123,R2_2026,0.316467,0.3976,0.404867,0.155492,4747,0.0062,93,
+W1 .NET weeks 47-52 (Phase 0 dev-test),MLP random partition (E05),frozen branch thresholds (0.5%),123-2026,crossed,R1_123,R2_2026,0.226,0.283267,0.404867,0.111315,3390,0.0072,108,
+W1 .NET weeks 47-52 (Phase 0 dev-test),MLP random partition (E05),frozen branch thresholds (0.5%),123-2026,crossed,R2_123,R1_2026,0.214,0.3976,0.2862,0.100207,3210,0.008,120,
+W2 .NET weeks 53-64 (official test),MLP random partition (E05),frozen branch thresholds (0.5%),42-123,same,R1_42,R1_123,0.218233,0.279033,0.244733,0.149945,6547,0.00474076,142,
+W2 .NET weeks 53-64 (official test),MLP random partition (E05),frozen branch thresholds (0.5%),42-123,same,R2_42,R2_123,0.294867,0.340767,0.3568,0.173281,8846,0.00537509,161,
+W2 .NET weeks 53-64 (official test),MLP random partition (E05),frozen branch thresholds (0.5%),42-123,crossed,R1_42,R2_123,0.206033,0.279033,0.3568,0.106474,6181,0.00570894,171,
+W2 .NET weeks 53-64 (official test),MLP random partition (E05),frozen branch thresholds (0.5%),42-123,crossed,R2_42,R1_123,0.1924,0.340767,0.244733,0.109003,5772,0.00641004,192,
+W2 .NET weeks 53-64 (official test),MLP random partition (E05),frozen branch thresholds (0.5%),42-2026,same,R1_42,R1_2026,0.2151,0.279033,0.2458,0.146514,6453,0.00427336,128,
+W2 .NET weeks 53-64 (official test),MLP random partition (E05),frozen branch thresholds (0.5%),42-2026,same,R2_42,R2_2026,0.2755,0.340767,0.356533,0.154005,8265,0.00550863,165,
+W2 .NET weeks 53-64 (official test),MLP random partition (E05),frozen branch thresholds (0.5%),42-2026,crossed,R1_42,R2_2026,0.2107,0.279033,0.356533,0.111215,6321,0.00574233,172,
+W2 .NET weeks 53-64 (official test),MLP random partition (E05),frozen branch thresholds (0.5%),42-2026,crossed,R2_42,R1_2026,0.189433,0.340767,0.2458,0.105673,5683,0.00607619,182,
+W2 .NET weeks 53-64 (official test),MLP random partition (E05),frozen branch thresholds (0.5%),123-2026,same,R1_123,R1_2026,0.207567,0.244733,0.2458,0.147411,6227,0.00444029,133,
+W2 .NET weeks 53-64 (official test),MLP random partition (E05),frozen branch thresholds (0.5%),123-2026,same,R2_123,R2_2026,0.2789,0.3568,0.356533,0.151689,8367,0.00527493,158,
+W2 .NET weeks 53-64 (official test),MLP random partition (E05),frozen branch thresholds (0.5%),123-2026,crossed,R1_123,R2_2026,0.191833,0.244733,0.356533,0.104578,5755,0.0062765,188,
+W2 .NET weeks 53-64 (official test),MLP random partition (E05),frozen branch thresholds (0.5%),123-2026,crossed,R2_123,R1_2026,0.187767,0.3568,0.2458,0.100065,5633,0.00590926,177,
+W1 .NET weeks 47-52 (Phase 0 dev-test),LightGBM semantic views (E10),frozen branch thresholds (0.5%),42-123,same,S_42,S_123,0.2114,0.240267,0.223,0.157821,3171,0.00306667,46,
+W1 .NET weeks 47-52 (Phase 0 dev-test),LightGBM semantic views (E10),frozen branch thresholds (0.5%),42-123,same,C_42,C_123,0.231133,0.249667,0.258467,0.166603,3467,0.00393333,59,
+W1 .NET weeks 47-52 (Phase 0 dev-test),LightGBM semantic views (E10),frozen branch thresholds (0.5%),42-123,crossed,S_42,C_123,0.126867,0.240267,0.258467,0.0647657,1903,0.00486667,73,
+W1 .NET weeks 47-52 (Phase 0 dev-test),LightGBM semantic views (E10),frozen branch thresholds (0.5%),42-123,crossed,C_42,S_123,0.110733,0.249667,0.223,0.0550577,1661,0.00553333,83,
+W1 .NET weeks 47-52 (Phase 0 dev-test),LightGBM semantic views (E10),frozen branch thresholds (0.5%),42-2026,same,S_42,S_2026,0.220667,0.240267,0.236133,0.163932,3310,0.00266667,40,
+W1 .NET weeks 47-52 (Phase 0 dev-test),LightGBM semantic views (E10),frozen branch thresholds (0.5%),42-2026,same,C_42,C_2026,0.225333,0.249667,0.250467,0.1628,3380,0.00393333,59,
+W1 .NET weeks 47-52 (Phase 0 dev-test),LightGBM semantic views (E10),frozen branch thresholds (0.5%),42-2026,crossed,S_42,C_2026,0.122867,0.240267,0.250467,0.0626879,1843,0.005,75,
+W1 .NET weeks 47-52 (Phase 0 dev-test),LightGBM semantic views (E10),frozen branch thresholds (0.5%),42-2026,crossed,C_42,S_2026,0.117733,0.249667,0.236133,0.0587787,1766,0.00533333,80,
+W1 .NET weeks 47-52 (Phase 0 dev-test),LightGBM semantic views (E10),frozen branch thresholds (0.5%),123-2026,same,S_123,S_2026,0.2128,0.223,0.236133,0.160142,3192,0.00306667,46,
+W1 .NET weeks 47-52 (Phase 0 dev-test),LightGBM semantic views (E10),frozen branch thresholds (0.5%),123-2026,same,C_123,C_2026,0.230733,0.258467,0.250467,0.165996,3461,0.0036,54,
+W1 .NET weeks 47-52 (Phase 0 dev-test),LightGBM semantic views (E10),frozen branch thresholds (0.5%),123-2026,crossed,S_123,C_2026,0.109733,0.223,0.250467,0.0538793,1646,0.0052,78,
+W1 .NET weeks 47-52 (Phase 0 dev-test),LightGBM semantic views (E10),frozen branch thresholds (0.5%),123-2026,crossed,C_123,S_2026,0.121,0.258467,0.236133,0.0599674,1815,0.0048,72,
+W2 .NET weeks 53-64 (official test),LightGBM semantic views (E10),frozen branch thresholds (0.5%),42-123,same,S_42,S_123,0.1916,0.209933,0.199433,0.149732,5748,0.00353888,106,
+W2 .NET weeks 53-64 (official test),LightGBM semantic views (E10),frozen branch thresholds (0.5%),42-123,same,C_42,C_123,0.191133,0.2084,0.217333,0.145841,5734,0.00427336,128,
+W2 .NET weeks 53-64 (official test),LightGBM semantic views (E10),frozen branch thresholds (0.5%),42-123,crossed,S_42,C_123,0.107633,0.209933,0.217333,0.0620078,3229,0.00587587,176,
+W2 .NET weeks 53-64 (official test),LightGBM semantic views (E10),frozen branch thresholds (0.5%),42-123,crossed,C_42,S_123,0.100433,0.2084,0.199433,0.0588714,3013,0.00607619,182,
+W2 .NET weeks 53-64 (official test),LightGBM semantic views (E10),frozen branch thresholds (0.5%),42-2026,same,S_42,S_2026,0.195967,0.209933,0.207233,0.152461,5879,0.00330518,99,
+W2 .NET weeks 53-64 (official test),LightGBM semantic views (E10),frozen branch thresholds (0.5%),42-2026,same,C_42,C_2026,0.186833,0.2084,0.2048,0.144153,5605,0.00454045,136,
+W2 .NET weeks 53-64 (official test),LightGBM semantic views (E10),frozen branch thresholds (0.5%),42-2026,crossed,S_42,C_2026,0.102967,0.209933,0.2048,0.0599723,3089,0.00617634,185,
+W2 .NET weeks 53-64 (official test),LightGBM semantic views (E10),frozen branch thresholds (0.5%),42-2026,crossed,C_42,S_2026,0.1051,0.2084,0.207233,0.0619126,3153,0.00590926,177,
+W2 .NET weeks 53-64 (official test),LightGBM semantic views (E10),frozen branch thresholds (0.5%),123-2026,same,S_123,S_2026,0.189467,0.199433,0.207233,0.148137,5684,0.00350549,105,
+W2 .NET weeks 53-64 (official test),LightGBM semantic views (E10),frozen branch thresholds (0.5%),123-2026,same,C_123,C_2026,0.1896,0.217333,0.2048,0.14509,5688,0.00444029,133,
+W2 .NET weeks 53-64 (official test),LightGBM semantic views (E10),frozen branch thresholds (0.5%),123-2026,crossed,S_123,C_2026,0.0983333,0.199433,0.2048,0.0574894,2950,0.0062765,188,
+W2 .NET weeks 53-64 (official test),LightGBM semantic views (E10),frozen branch thresholds (0.5%),123-2026,crossed,C_123,S_2026,0.1073,0.217333,0.207233,0.0622613,3219,0.00577572,173,
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),frozen branch thresholds (0.5%),42-123,same,S_42,S_123,0.234433,0.263533,0.257967,0.166451,7033,0.00691083,207,
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),frozen branch thresholds (0.5%),42-123,same,C_42,C_123,0.278033,0.3659,0.319167,0.16125,8341,0.0067439,202,
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),frozen branch thresholds (0.5%),42-123,crossed,S_42,C_123,0.137133,0.263533,0.319167,0.0530223,4114,0.00761193,228,
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),frozen branch thresholds (0.5%),42-123,crossed,C_42,S_123,0.1489,0.3659,0.257967,0.05451,4467,0.0100157,300,
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),frozen branch thresholds (0.5%),42-2026,same,S_42,S_2026,0.223967,0.263533,0.238733,0.161052,6719,0.00624311,187,
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),frozen branch thresholds (0.5%),42-2026,same,C_42,C_2026,0.311167,0.3659,0.383333,0.170905,9335,0.00654358,196,
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),frozen branch thresholds (0.5%),42-2026,crossed,S_42,C_2026,0.1628,0.263533,0.383333,0.0617789,4884,0.00701098,210,
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),frozen branch thresholds (0.5%),42-2026,crossed,C_42,S_2026,0.135967,0.3659,0.238733,0.0486141,4079,0.00941475,282,
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),frozen branch thresholds (0.5%),123-2026,same,S_123,S_2026,0.2204,0.257967,0.238733,0.158815,6612,0.00694421,208,
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),frozen branch thresholds (0.5%),123-2026,same,C_123,C_2026,0.2777,0.319167,0.383333,0.155353,8331,0.00590926,177,
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),frozen branch thresholds (0.5%),123-2026,crossed,S_123,C_2026,0.160467,0.257967,0.383333,0.0615794,4814,0.00884719,265,
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),frozen branch thresholds (0.5%),123-2026,crossed,C_123,S_2026,0.125833,0.319167,0.238733,0.0496376,3775,0.00901412,270,
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 1%",42-123,same,S_42,S_123,0.198,0.2163,0.2271,0.148878,5940,0.0100157,300,14874.3
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 1%",42-123,same,C_42,C_123,0.226367,0.288667,0.272733,0.147638,6791,0.0100157,300,14875.4
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 1%",42-123,crossed,S_42,C_123,0.114467,0.232033,0.294567,0.0461174,3434,0.0100157,300,14901.7
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 1%",42-123,crossed,C_42,S_123,0.148833,0.3658,0.257833,0.0545179,4465,0.0100157,300,14923.9
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 1%",42-2026,same,S_42,S_2026,0.183067,0.214667,0.199933,0.140148,5492,0.0100157,300,14871.2
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 1%",42-2026,same,C_42,C_2026,0.2377,0.307567,0.286933,0.149449,7131,0.0100157,300,14888.7
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 1%",42-2026,crossed,S_42,C_2026,0.1277,0.232033,0.321867,0.0530162,3831,0.0100157,300,14901.7
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 1%",42-2026,crossed,C_42,S_2026,0.1305,0.355333,0.231867,0.04811,3915,0.0100157,300,14916.7
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 1%",123-2026,same,S_123,S_2026,0.188833,0.231567,0.204567,0.141463,5665,0.0100157,300,14882.4
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 1%",123-2026,same,C_123,C_2026,0.210867,0.2734,0.263333,0.138871,6326,0.0100157,300,14875.7
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 1%",123-2026,crossed,S_123,C_2026,0.140467,0.245633,0.344167,0.0559279,4214,0.0100157,300,14910.5
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 1%",123-2026,crossed,C_123,S_2026,0.116033,0.305267,0.225867,0.0470838,3481,0.0100157,300,14912.5
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 1%",42-123,same,S_42,S_123,0.2062,0.226567,0.2354,0.152866,6186,0.00901412,270,14890
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 1%",42-123,same,C_42,C_123,0.251533,0.3241,0.2958,0.155665,7546,0.00821287,246,14903
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 1%",42-123,crossed,S_42,C_123,0.1365,0.263433,0.317833,0.0527721,4095,0.00764531,229,14922
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 1%",42-123,crossed,C_42,S_123,0.1477,0.3645,0.2569,0.0540599,4431,0.0100825,302,14923
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 1%",42-2026,same,S_42,S_2026,0.190467,0.220967,0.207333,0.144653,5714,0.00928121,278,14886
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 1%",42-2026,same,C_42,C_2026,0.260167,0.3205,0.319033,0.157916,7805,0.00874704,262,14901
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 1%",42-2026,crossed,S_42,C_2026,0.158967,0.263433,0.370933,0.0612505,4769,0.00724468,217,14922
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 1%",42-2026,crossed,C_42,S_2026,0.134367,0.3645,0.235867,0.0483933,4031,0.00964845,289,14923
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 1%",123-2026,same,S_123,S_2026,0.190867,0.232367,0.207333,0.142689,5726,0.00978199,293,14886
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 1%",123-2026,same,C_123,C_2026,0.246567,0.296267,0.326467,0.149845,7397,0.00754515,226,14904
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 1%",123-2026,crossed,S_123,C_2026,0.1591,0.2569,0.380667,0.0613067,4773,0.00894735,268,14923
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 1%",123-2026,crossed,C_123,S_2026,0.125833,0.319167,0.238733,0.0496376,3775,0.00901412,270,14924
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 0.5%",42-123,same,S_42,S_123,0.253067,0.279467,0.275667,0.176027,7592,0.00500785,150,14938.8
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 0.5%",42-123,same,C_42,C_123,0.328833,0.4465,0.363067,0.166724,9865,0.00500785,150,14946.5
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 0.5%",42-123,crossed,S_42,C_123,0.184967,0.312367,0.382333,0.0655385,5549,0.00500785,150,14953.4
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 0.5%",42-123,crossed,C_42,S_123,0.2053,0.458867,0.304933,0.0653763,6159,0.00500785,150,14949.7
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 0.5%",42-2026,same,S_42,S_2026,0.233467,0.267133,0.254633,0.165446,7004,0.00500785,150,14931.7
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 0.5%",42-2026,same,C_42,C_2026,0.3449,0.4114,0.4135,0.174786,10347,0.00500785,150,14934.2
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 0.5%",42-2026,crossed,S_42,C_2026,0.1967,0.2809,0.4608,0.0672613,5901,0.00500785,150,14942.6
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 0.5%",42-2026,crossed,C_42,S_2026,0.192933,0.469,0.2859,0.0588462,5788,0.00500785,150,14952.5
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 0.5%",123-2026,same,S_123,S_2026,0.2513,0.286333,0.269933,0.174009,7539,0.00500785,150,14942.3
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 0.5%",123-2026,same,C_123,C_2026,0.306667,0.345633,0.425433,0.159623,9200,0.00500785,150,14936.1
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 0.5%",123-2026,crossed,S_123,C_2026,0.207,0.293033,0.4639,0.0710618,6210,0.00500785,150,14943.5
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 0.5%",123-2026,crossed,C_123,S_2026,0.1759,0.391833,0.288767,0.0627516,5277,0.00500785,150,14956.6
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 0.5%",42-123,same,S_42,S_123,0.259233,0.281067,0.2874,0.178455,7777,0.00454045,136,14943
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 0.5%",42-123,same,C_42,C_123,0.340767,0.463867,0.373833,0.167358,10223,0.00457383,137,14952
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 0.5%",42-123,crossed,S_42,C_123,0.220867,0.356033,0.418033,0.0720329,6626,0.00387273,116,14962
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 0.5%",42-123,crossed,C_42,S_123,0.241833,0.532833,0.3281,0.0670107,7255,0.00397289,119,14962
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 0.5%",42-2026,same,S_42,S_2026,0.2441,0.280167,0.266467,0.169445,7323,0.00447368,134,14940
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 0.5%",42-2026,same,C_42,C_2026,0.403,0.450633,0.4896,0.18237,12090,0.00383935,115,14947
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 0.5%",42-2026,crossed,S_42,C_2026,0.28,0.356033,0.576467,0.0747587,8400,0.00297132,89,14962
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 0.5%",42-2026,crossed,C_42,S_2026,0.225633,0.532833,0.3106,0.0601353,6769,0.00380596,114,14962
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 0.5%",123-2026,same,S_123,S_2026,0.250533,0.285,0.269467,0.173735,7516,0.005108,153,14942
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 0.5%",123-2026,same,C_123,C_2026,0.3433,0.370633,0.507733,0.155117,10299,0.00393951,118,14950
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 0.5%",123-2026,crossed,S_123,C_2026,0.2618,0.3281,0.576467,0.0726613,7854,0.00317164,95,14962
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 0.5%",123-2026,crossed,C_123,S_2026,0.197033,0.418033,0.3106,0.0671922,5911,0.00393951,118,14962
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 2%",42-123,same,S_42,S_123,0.1206,0.143633,0.14,0.100491,3618,0.019998,599,14682.7
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 2%",42-123,same,C_42,C_123,0.124633,0.167267,0.1638,0.0972351,3739,0.019998,599,14722.6
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 2%",42-123,crossed,S_42,C_123,0.0649667,0.173533,0.194633,0.0311913,1949,0.019998,599,14784.5
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 2%",42-123,crossed,C_42,S_123,0.0765,0.216867,0.189167,0.0354761,2295,0.019998,599,14819.3
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 2%",42-2026,same,S_42,S_2026,0.114167,0.137433,0.1324,0.0959705,3425,0.019998,599,14655.4
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 2%",42-2026,same,C_42,C_2026,0.123367,0.181733,0.158267,0.0946043,3701,0.019998,599,14758.2
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 2%",42-2026,crossed,S_42,C_2026,0.0695667,0.1795,0.180033,0.0372507,2087,0.019998,599,14794.8
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 2%",42-2026,crossed,C_42,S_2026,0.0696667,0.2097,0.1754,0.0328853,2090,0.019998,599,14806.1
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 2%",123-2026,same,S_123,S_2026,0.123533,0.1464,0.143533,0.10252,3706,0.019998,599,14701.3
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 2%",123-2026,same,C_123,C_2026,0.1116,0.1679,0.147967,0.0867564,3348,0.019998,599,14730.8
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 2%",123-2026,crossed,S_123,C_2026,0.0750333,0.186433,0.190233,0.0395675,2251,0.019998,599,14815.1
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 2%",123-2026,crossed,C_123,S_2026,0.0651,0.191367,0.170767,0.032421,1953,0.019998,599,14781.1
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 2%",42-123,same,S_42,S_123,0.1503,0.1704,0.1717,0.121042,4509,0.0160251,480,14774
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 2%",42-123,same,C_42,C_123,0.1543,0.200367,0.197,0.114828,4629,0.0160919,482,14790
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 2%",42-123,crossed,S_42,C_123,0.0805667,0.1923,0.232933,0.0357736,2417,0.0160585,481,14838
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 2%",42-123,crossed,C_42,S_123,0.0843,0.238367,0.200133,0.0365949,2529,0.0184289,552,14841
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 2%",42-2026,same,S_42,S_2026,0.1445,0.169167,0.164667,0.116644,4335,0.0152572,457,14767
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 2%",42-2026,same,C_42,C_2026,0.1368,0.195,0.1735,0.102968,4104,0.0180616,541,14783
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 2%",42-2026,crossed,S_42,C_2026,0.0844,0.1923,0.2157,0.0429209,2532,0.0168264,504,14838
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 2%",42-2026,crossed,C_42,S_2026,0.0813,0.237967,0.1868,0.0368478,2439,0.0171936,515,14840
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 2%",123-2026,same,S_123,S_2026,0.1447,0.168667,0.164367,0.116977,4341,0.0169265,507,14765
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 2%",123-2026,same,C_123,C_2026,0.139867,0.198633,0.180167,0.10408,4196,0.0160251,480,14795
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 2%",123-2026,crossed,S_123,C_2026,0.0863333,0.200133,0.216533,0.0429978,2590,0.0179615,538,14841
+Clean .NET weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 2%",123-2026,crossed,C_123,S_2026,0.0806667,0.2346,0.1868,0.0368434,2420,0.0158248,474,14839
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),frozen branch thresholds (0.5%),42-123,same,S_42,S_123,0.0465167,0.0647167,0.0584167,0.0427361,2791,0.0102012,612,
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),frozen branch thresholds (0.5%),42-123,same,C_42,C_123,0.1649,0.269083,0.228933,0.103298,9894,0.00878436,527,
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),frozen branch thresholds (0.5%),42-123,crossed,S_42,C_123,0.0414333,0.0647167,0.228933,0.0266175,2486,0.011768,706,
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),frozen branch thresholds (0.5%),42-123,crossed,C_42,S_123,0.04215,0.269083,0.0584167,0.026431,2529,0.011118,667,
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),frozen branch thresholds (0.5%),42-2026,same,S_42,S_2026,0.0458833,0.0647167,0.0618167,0.0418828,2753,0.0109846,659,
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),frozen branch thresholds (0.5%),42-2026,same,C_42,C_2026,0.183267,0.269083,0.253917,0.114942,10996,0.00798426,479,
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),frozen branch thresholds (0.5%),42-2026,crossed,S_42,C_2026,0.04315,0.0647167,0.253917,0.0267174,2589,0.0110346,662,
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),frozen branch thresholds (0.5%),42-2026,crossed,C_42,S_2026,0.04465,0.269083,0.0618167,0.0280162,2679,0.0118514,711,
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),frozen branch thresholds (0.5%),123-2026,same,S_123,S_2026,0.0443167,0.0584167,0.0618167,0.0407055,2659,0.0107179,643,
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),frozen branch thresholds (0.5%),123-2026,same,C_123,C_2026,0.167067,0.228933,0.253917,0.108937,10024,0.00830097,498,
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),frozen branch thresholds (0.5%),123-2026,crossed,S_123,C_2026,0.0397167,0.0584167,0.253917,0.0248837,2383,0.0107513,645,
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),frozen branch thresholds (0.5%),123-2026,crossed,C_123,S_2026,0.0399167,0.228933,0.0618167,0.0257648,2395,0.0123514,741,
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 1%",42-123,same,S_42,S_123,0.0473667,0.0651167,0.0598667,0.0434683,2842,0.0100012,600,29852.4
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 1%",42-123,same,C_42,C_123,0.153017,0.248983,0.21695,0.0989997,9181,0.0100012,600,29825.5
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 1%",42-123,crossed,S_42,C_123,0.04605,0.0717,0.240667,0.0287942,2763,0.0100012,600,29872.8
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 1%",42-123,crossed,C_42,S_123,0.0458167,0.2904,0.0626,0.0276376,2749,0.0100012,600,29859.1
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 1%",42-2026,same,S_42,S_2026,0.04955,0.0684,0.0690167,0.0448293,2973,0.0100012,600,29863
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 1%",42-2026,same,C_42,C_2026,0.159317,0.237583,0.22795,0.10516,9559,0.0100012,600,29805.1
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 1%",42-2026,crossed,S_42,C_2026,0.0464333,0.0685,0.270783,0.0278847,2786,0.0100012,600,29863.4
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 1%",42-2026,crossed,C_42,S_2026,0.0515167,0.311117,0.0702167,0.0296711,3091,0.0100012,600,29867.3
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 1%",123-2026,same,S_123,S_2026,0.0465,0.0618167,0.0650333,0.0424799,2790,0.0100012,600,29858.3
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 1%",123-2026,same,C_123,C_2026,0.1537,0.2123,0.238033,0.103166,9222,0.0100012,600,29821.9
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 1%",123-2026,crossed,S_123,C_2026,0.0419167,0.06145,0.263683,0.0257133,2515,0.0100012,600,29856.8
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 1%",123-2026,crossed,C_123,S_2026,0.0471333,0.246367,0.0774667,0.0280481,2828,0.0100012,600,29883.1
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 1%",42-123,same,S_42,S_123,0.0350333,0.0492,0.0469,0.0327259,2102,0.0137349,824,29785
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 1%",42-123,same,C_42,C_123,0.140917,0.23305,0.200767,0.094128,8455,0.0116347,698,29799
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 1%",42-123,crossed,S_42,C_123,0.0377167,0.0588,0.21975,0.0247954,2263,0.0130182,781,29832
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 1%",42-123,crossed,C_42,S_123,0.03995,0.255317,0.0560667,0.0256352,2397,0.011568,694,29832
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 1%",42-2026,same,S_42,S_2026,0.03605,0.0495333,0.05145,0.0335015,2163,0.014285,857,29790
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 1%",42-2026,same,C_42,C_2026,0.154817,0.231717,0.223183,0.103101,9289,0.0104512,627,29797
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 1%",42-2026,crossed,S_42,C_2026,0.03985,0.0595833,0.246717,0.0251498,2391,0.0120347,722,29835
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 1%",42-2026,crossed,C_42,S_2026,0.04145,0.255317,0.0575667,0.0267523,2487,0.0128682,772,29832
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 1%",123-2026,same,S_123,S_2026,0.0358333,0.0478667,0.0517333,0.033357,2150,0.0134349,806,29794
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 1%",123-2026,same,C_123,C_2026,0.142483,0.1989,0.223183,0.0980922,8549,0.0115347,692,29797
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 1%",123-2026,crossed,S_123,C_2026,0.0379333,0.0562333,0.246267,0.0240849,2276,0.011218,673,29834
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 1%",123-2026,crossed,C_123,S_2026,0.03735,0.21975,0.0575667,0.0246997,2241,0.0134182,805,29832
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 0.5%",42-123,same,S_42,S_123,0.07775,0.10585,0.09425,0.0677736,4665,0.00500058,300,29930.1
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 0.5%",42-123,same,C_42,C_123,0.217783,0.413767,0.277483,0.10297,13067,0.00500058,300,29914.6
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 0.5%",42-123,crossed,S_42,C_123,0.0778667,0.120583,0.328317,0.0382771,4672,0.00500058,300,29944.8
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 0.5%",42-123,crossed,C_42,S_123,0.0744833,0.475717,0.0931333,0.0301783,4469,0.00500058,300,29927.9
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 0.5%",42-2026,same,S_42,S_2026,0.0898833,0.121583,0.112667,0.0761849,5393,0.00500058,300,29946.1
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 0.5%",42-2026,same,C_42,C_2026,0.254,0.37695,0.320333,0.13325,15240,0.00500058,300,29900
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 0.5%",42-2026,crossed,S_42,C_2026,0.08125,0.118183,0.4048,0.0334094,4875,0.00500058,300,29941.8
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 0.5%",42-2026,crossed,C_42,S_2026,0.0889,0.532717,0.11035,0.0301147,5334,0.00500058,300,29942.2
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 0.5%",123-2026,same,S_123,S_2026,0.07745,0.0972833,0.105233,0.0672126,4647,0.00500058,300,29935.7
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 0.5%",123-2026,same,C_123,C_2026,0.212317,0.27495,0.337033,0.119649,12739,0.00500058,300,29913.2
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 0.5%",123-2026,crossed,S_123,C_2026,0.0698167,0.0959833,0.385467,0.0328183,4189,0.00500058,300,29933.7
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 0.5%",123-2026,crossed,C_123,S_2026,0.0795,0.341067,0.117117,0.0395554,4770,0.00500058,300,29948.8
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 0.5%",42-123,same,S_42,S_123,0.0639,0.08485,0.0797167,0.057136,3834,0.00670078,402,29901
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 0.5%",42-123,same,C_42,C_123,0.19855,0.37525,0.255617,0.10263,11913,0.00588402,353,29899
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 0.5%",42-123,crossed,S_42,C_123,0.0622667,0.0961,0.28835,0.0345562,3736,0.00681746,409,29921
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 0.5%",42-123,crossed,C_42,S_123,0.0700667,0.426283,0.0899167,0.0317367,4204,0.00565066,339,29919
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 0.5%",42-2026,same,S_42,S_2026,0.0630833,0.0845667,0.0850167,0.0558938,3785,0.00765089,459,29900
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 0.5%",42-2026,same,C_42,C_2026,0.258167,0.3833,0.324417,0.133818,15490,0.00485057,291,29901
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 0.5%",42-2026,crossed,S_42,C_2026,0.064,0.0943667,0.350883,0.0308883,3840,0.00650076,390,29919
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 0.5%",42-2026,crossed,C_42,S_2026,0.07145,0.426283,0.0918833,0.0322817,4287,0.00703415,422,29919
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 0.5%",123-2026,same,S_123,S_2026,0.0611167,0.0797167,0.0858833,0.0542703,3667,0.00708416,425,29901
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 0.5%",123-2026,same,C_123,C_2026,0.196667,0.255617,0.318983,0.115129,11800,0.00590069,354,29899
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 0.5%",123-2026,crossed,S_123,C_2026,0.0638333,0.0899167,0.350883,0.0322831,3830,0.00576734,346,29919
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 0.5%",123-2026,crossed,C_123,S_2026,0.0584833,0.283,0.09135,0.0326313,3509,0.00783425,470,29918
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 2%",42-123,same,S_42,S_123,0.0246333,0.0355833,0.034,0.0234235,1478,0.0200023,1200,29643.6
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 2%",42-123,same,C_42,C_123,0.1057,0.177917,0.159717,0.0772837,6342,0.0200023,1200,29649
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 2%",42-123,crossed,S_42,C_123,0.0257167,0.0423833,0.176433,0.0182388,1543,0.0200023,1200,29721.5
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 2%",42-123,crossed,C_42,S_123,0.0256667,0.194467,0.0378833,0.0182996,1540,0.0200023,1200,29702.7
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 2%",42-2026,same,S_42,S_2026,0.0264667,0.0369667,0.0393333,0.0250126,1588,0.0200023,1200,29664.3
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 2%",42-2026,same,C_42,C_2026,0.107583,0.171417,0.164433,0.0793967,6455,0.0200023,1200,29624.8
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 2%",42-2026,crossed,S_42,C_2026,0.0259,0.0405,0.18435,0.0184338,1554,0.0200023,1200,29698.3
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 2%",42-2026,crossed,C_42,S_2026,0.0292,0.196167,0.043,0.0207648,1752,0.0200023,1200,29706.3
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 2%",123-2026,same,S_123,S_2026,0.0258167,0.03355,0.0376667,0.024553,1549,0.0200023,1200,29638
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 2%",123-2026,same,C_123,C_2026,0.105417,0.155517,0.165783,0.0796346,6325,0.0200023,1200,29626.6
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 2%",123-2026,crossed,S_123,C_2026,0.0247833,0.0373833,0.183367,0.0179285,1487,0.0200023,1200,29695.1
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, retrospective (test benign), r = 2%",123-2026,crossed,C_123,S_2026,0.02785,0.176567,0.0448333,0.0199339,1671,0.0200023,1200,29721.9
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 2%",42-123,same,S_42,S_123,0.0228333,0.0321833,0.0319833,0.021804,1370,0.0225526,1353,29579
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 2%",42-123,same,C_42,C_123,0.0980167,0.166317,0.15075,0.0729444,5881,0.0227693,1366,29596
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 2%",42-123,crossed,S_42,C_123,0.0215,0.0361667,0.160167,0.0157073,1290,0.0244862,1469,29654
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 2%",42-123,crossed,C_42,S_123,0.0226667,0.178733,0.0343,0.0165361,1360,0.0230194,1381,29656
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 2%",42-2026,same,S_42,S_2026,0.0217167,0.0312,0.0318167,0.020724,1303,0.025453,1527,29562
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 2%",42-2026,same,C_42,C_2026,0.102483,0.165883,0.157317,0.0763871,6149,0.0216192,1297,29593
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 2%",42-2026,crossed,S_42,C_2026,0.02325,0.0361667,0.17375,0.016966,1395,0.0227527,1365,29654
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 2%",42-2026,crossed,C_42,S_2026,0.02505,0.177,0.0381833,0.0182916,1503,0.0242028,1452,29646
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 2%",123-2026,same,S_123,S_2026,0.0235667,0.03205,0.0329,0.0225122,1414,0.022586,1355,29580
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 2%",123-2026,same,C_123,C_2026,0.0984833,0.147733,0.15515,0.0755625,5909,0.0223359,1340,29582
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 2%",123-2026,crossed,S_123,C_2026,0.0227833,0.0343,0.17435,0.0168031,1367,0.0220026,1320,29656
+Clean Win64 weeks 53-64 (official test),MLP semantic (clean run),"equal system FP, prospective (validation benign), r = 2%",123-2026,crossed,C_123,S_2026,0.0230333,0.15985,0.03825,0.0169191,1382,0.0245862,1475,29650

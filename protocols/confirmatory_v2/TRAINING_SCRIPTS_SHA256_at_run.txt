@@ -1,0 +1,8 @@
+61a8edeb551877c23f624cdb6a2868d03e049f4e5e5d863f865a1b8bb4a8aaad *train_win64_lgbm_pool.py
+20b0953f483ba012d34aff018e58c184d9afcef081664bf002ada15fbf1ef161 *train_win64_mlp_ablation.py
+61a8edeb551877c23f624cdb6a2868d03e049f4e5e5d863f865a1b8bb4a8aaad *train_win64_lgbm_pool.py
+a6ae0e4882c70ae39c79beb5f6051a9325f13e0d4b024abff23211a66ddecfc2 *train_win64_lgbm_FL_resume.py
+# after construction-parameter fix 2026-11-25T11:57:36+01:00
+081605d90e9c2f066234b8838ee6da401eb616f211e8d3d032e988f711f7325c *train_win64_lgbm_FL_resume.py
+# after --seeds option 2026-11-25T12:44:34+01:00
+80baec5e0cdc5ccceba7b41b6c5038ef8c8369089199dc386694b510f61a1d7a *train_win64_lgbm_FL_resume.py

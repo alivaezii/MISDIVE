@@ -1,0 +1,53 @@
+{
+ "preprocessor_sha256": "e7526db277857e9992480fbe1fc29bb5265ba23d3175c27367952e08e027b58e",
+ "model_sha256": {
+  "E04_indep_semantic_s42": "99353dd965f141828a23c84738b644f37a7a26f79102f6ac8ce98d129b1c8035",
+  "E04_indep_semantic_s123": "7cd938ca7b6aded6ad3e2e1b8ba2900bac44ba42ed11fe50c2d025fb4c1664ce",
+  "E04_indep_semantic_s2026": "60e89ec7e31b7ad5e292579620687cd3ba626cff96343fe1193dc131940d1ed5",
+  "E05_indep_random_s42": "90554d97308b39b2b2a2376e8fb99a338ca7cbc4fd0229e13cafd45ab4e976cf",
+  "E05_indep_random_s123": "c20db3a416377771e89aedd42d7456bbac248235f398b8a594d409724345af38",
+  "E05_indep_random_s2026": "cd807871c600c638960b8adaea5de46cc0434237f9a6240fd9861ba09b550b86",
+  "E10_lgbm_structural_s42": "7ceafc5f7662a452db32ae3e4650a6502dd6d9762b6f5d174415259b0406ca83",
+  "E10_lgbm_structural_s123": "6e18c2adb0e5f5b7cd1e86d5f114541b9ff2b1aaef3d503e665a289cb2d2722a",
+  "E10_lgbm_structural_s2026": "6c8fee6aae55edf647e378c43d04aff50bc23361a2deb40f9f537b6cb48bf1e4",
+  "E10_lgbm_content_s42": "5bb86ddcf74366ca6547648c1a4734f7d8a181bf4cc6373e4583f299f9ac0370",
+  "E10_lgbm_content_s123": "5d02ee0eaf0d9e46e75e456e7542ecc8efd8793550695ce0679e2198fb21c7c0",
+  "E10_lgbm_content_s2026": "25bf51d027178e69f7251655b6c5821f0f0335f9566ad39ed312c6ccf5f1d237"
+ },
+ "view_dims": {
+  "semantic": [
+   1426,
+   694
+  ],
+  "random": [
+   1426,
+   694
+  ]
+ },
+ "n_retained_columns": 2120,
+ "devtest_max_abs_diff": {
+  "E04_indep_semantic_s42": 0.0,
+  "E04_indep_semantic_s123": 0.0,
+  "E04_indep_semantic_s2026": 0.0,
+  "E05_indep_random_s42": 0.0,
+  "E05_indep_random_s123": 0.0,
+  "E05_indep_random_s2026": 0.0,
+  "E10_lgbm_structural_s42": 4.768272248156791e-07,
+  "E10_lgbm_structural_s123": 4.768359556095447e-07,
+  "E10_lgbm_structural_s2026": 4.7682542891891444e-07,
+  "E10_lgbm_content_s42": 4.7682007675575733e-07,
+  "E10_lgbm_content_s123": 4.7679938930400567e-07,
+  "E10_lgbm_content_s2026": 4.768302055424556e-07
+ },
+ "official_rows": 59953,
+ "official_label_agreement": true,
+ "official_E04_max_abs_diff": {
+  "S_42": 0.0,
+  "C_42": 0.0,
+  "S_123": 0.0,
+  "C_123": 0.0,
+  "S_2026": 0.0,
+  "C_2026": 0.0
+ },
+ "output_sha256": "c609965cba7488625388c3080e8343fc41e3e7f214b0fb9dd4082768bf82a3f9"
+}

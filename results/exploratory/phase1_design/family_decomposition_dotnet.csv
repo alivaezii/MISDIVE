@@ -1,0 +1,5 @@
+window,algorithm,raw_contrast_pp,top1,top1_share,top5_share,top10_share,n_families_positive,no_family_share,top5
+W1,M,13.626666666666667,(none),0.24592302674494454,0.44765166340508805,0.5720808871493802,416,0.24592302674494454,"['(none)', 'wacatac', 'jalapeno', 'agenttesla', 'heracles']"
+W1,L,10.385555555555555,(none),0.27998288220819517,0.546699475767626,0.6479084198138442,328,0.27998288220819517,"['(none)', 'wacatac', 'stelpak', 'heracles', 'jalapeno']"
+W2,M,12.427222222222222,(none),0.19889132281282135,0.4677902454289419,0.5730698734856274,561,0.19889132281282135,"['(none)', 'wacatac', 'jalapeno', 'agenttesla', 'heracles']"
+W2,L,8.713888888888889,(none),0.23430028689831048,0.5041122091169907,0.5899266815428754,463,0.23430028689831048,"['(none)', 'wacatac', 'heracles', 'jalapeno', 'agenttesla']"

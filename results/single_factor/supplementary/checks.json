@@ -1,0 +1,35 @@
+{
+ "W2_E04_delta_pp_reproduces_original_11.90": 11.902834851851852,
+ "dotnet_thresholds_match_frozen": true,
+ "dotnet_tau0_decision_mismatches": 0,
+ "win64_thresholds_match_frozen": true,
+ "win64_tau0_decision_mismatches": 0,
+ "dotnet_manuscript_delta_reproduced": [
+  10.744723666666667,
+  10.744723666666667
+ ],
+ "dotnet_manuscript_ci_reproduced": [
+  [
+   8.727573845535517,
+   12.530793206145367
+  ],
+  [
+   8.727573845535517,
+   12.530793206145367
+  ]
+ ],
+ "win64_manuscript_delta_reproduced": [
+  4.901172037037036,
+  4.901172037037036
+ ],
+ "win64_manuscript_ci_reproduced": [
+  [
+   4.075915285696586,
+   5.392900311077634
+  ],
+  [
+   4.075915285696586,
+   5.392900311077634
+  ]
+ ]
+}

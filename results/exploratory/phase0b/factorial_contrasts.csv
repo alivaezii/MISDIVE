@@ -1,0 +1,55 @@
+window,quantity,value_pp,lo,hi
+V weeks 41-46 (validation),view|MM,11.876343259259258,,
+V weeks 41-46 (validation),view|LL,9.009591851851852,,
+V weeks 41-46 (validation),view|ML,5.478643148148149,,
+V weeks 41-46 (validation),alg|SS,4.6548680740740735,,
+V weeks 41-46 (validation),alg|CC,6.610281111111112,,
+V weeks 41-46 (validation),alg|SC,0.6682501851851852,,
+V weeks 41-46 (validation),ladder_cov|same-view|same-alg,17.147448592592596,,
+V weeks 41-46 (validation),ladder_ratio|same-view|same-alg,3.3116236122765415,,
+V weeks 41-46 (validation),ladder_J|same-view|same-alg,26.777222222222218,,
+V weeks 41-46 (validation),ladder_cov|cross-view|same-alg,6.704481037037037,,
+V weeks 41-46 (validation),ladder_ratio|cross-view|same-alg,1.9167313679309677,,
+V weeks 41-46 (validation),ladder_J|cross-view|same-alg,16.130000000000003,,
+V weeks 41-46 (validation),ladder_cov|same-view|cross-alg,11.514874,,
+V weeks 41-46 (validation),ladder_ratio|same-view|cross-alg,2.4368319337281723,,
+V weeks 41-46 (validation),ladder_J|same-view|cross-alg,19.735555555555553,,
+V weeks 41-46 (validation),ladder_cov|cross-view|cross-alg,6.036230851851851,,
+V weeks 41-46 (validation),ladder_ratio|cross-view|cross-alg,1.742243402375024,,
+V weeks 41-46 (validation),ladder_J|cross-view|cross-alg,14.288888888888888,,
+"W1 weeks 47-52 (dev test, examined)",view|MM,13.170899259259262,11.623136595413191,14.570873076398865
+"W1 weeks 47-52 (dev test, examined)",view|LL,10.369280962962964,8.850600402492676,11.730199933002861
+"W1 weeks 47-52 (dev test, examined)",view|ML,6.3845102222222225,5.403617772103536,7.276300150181556
+"W1 weeks 47-52 (dev test, examined)",alg|SS,5.052714740740741,4.0853833192490585,6.103634708133719
+"W1 weeks 47-52 (dev test, examined)",alg|CC,6.571865851851852,5.961476199637847,7.1810574543553765
+"W1 weeks 47-52 (dev test, examined)",alg|SC,0.4267104074074073,0.17578665711798108,0.6376748733729307
+"W1 weeks 47-52 (dev test, examined)",ladder_cov|same-view|same-alg,18.091318925925925,16.81749201759542,18.950782631710116
+"W1 weeks 47-52 (dev test, examined)",ladder_ratio|same-view|same-alg,3.0045549678010377,2.6780161685757786,3.4993607642197992
+"W1 weeks 47-52 (dev test, examined)",ladder_J|same-view|same-alg,29.583333333333332,25.5142735933131,33.13440970923099
+"W1 weeks 47-52 (dev test, examined)",ladder_cov|cross-view|same-alg,6.3212288148148135,5.37959296454135,7.127275550791435
+"W1 weeks 47-52 (dev test, examined)",ladder_ratio|cross-view|same-alg,1.7036685369914888,1.5390257015266795,1.9404485437889019
+"W1 weeks 47-52 (dev test, examined)",ladder_J|cross-view|same-alg,17.577222222222222,14.59067160147311,20.383509022447296
+"W1 weeks 47-52 (dev test, examined)",ladder_cov|same-view|cross-alg,12.279028629629629,11.272255300950954,13.082881156271851
+"W1 weeks 47-52 (dev test, examined)",ladder_ratio|same-view|cross-alg,2.2714216175675115,2.04117931473711,2.615153980129184
+"W1 weeks 47-52 (dev test, examined)",ladder_J|same-view|cross-alg,22.3,18.924031314266266,25.403137221447384
+"W1 weeks 47-52 (dev test, examined)",ladder_cov|cross-view|cross-alg,5.894518407407407,5.073520070943321,6.640807643899224
+"W1 weeks 47-52 (dev test, examined)",ladder_ratio|cross-view|cross-alg,1.5995269813582815,1.4486896624461356,1.8025224150744983
+"W1 weeks 47-52 (dev test, examined)",ladder_J|cross-view|cross-alg,15.822222222222223,13.05735859020906,18.362433592370152
+"W2 weeks 53-64 (official test, examined)",view|MM,11.902834851851853,9.80783019420604,13.832806767380003
+"W2 weeks 53-64 (official test, examined)",view|LL,8.71501009259259,7.0569966279181005,10.389026845318064
+"W2 weeks 53-64 (official test, examined)",view|ML,5.560936194444444,4.484704129337348,6.578369627769894
+"W2 weeks 53-64 (official test, examined)",alg|SS,3.9797935925925927,3.239004096509721,4.8841295474455615
+"W2 weeks 53-64 (official test, examined)",alg|CC,6.472833944444445,5.5300171209591795,7.346106002202547
+"W2 weeks 53-64 (official test, examined)",alg|SC,0.47832749074074077,0.29873632722116433,0.6243516768368251
+"W2 weeks 53-64 (official test, examined)",ladder_cov|same-view|same-alg,16.735888990740744,14.800829800965545,18.294457548289945
+"W2 weeks 53-64 (official test, examined)",ladder_ratio|same-view|same-alg,3.5182102279776806,2.9258787738621868,4.328616323356896
+"W2 weeks 53-64 (official test, examined)",ladder_J|same-view|same-alg,25.210277777777772,20.487203293565788,30.142311103917343
+"W2 weeks 53-64 (official test, examined)",ladder_cov|cross-view|same-alg,6.426966518518519,5.4113278790776285,7.156735826257907
+"W2 weeks 53-64 (official test, examined)",ladder_ratio|cross-view|same-alg,1.9808720779950735,1.703576282970867,2.433726459092504
+"W2 weeks 53-64 (official test, examined)",ladder_J|cross-view|same-alg,14.639722222222224,11.65201651572427,18.27421064602574
+"W2 weeks 53-64 (official test, examined)",ladder_cov|same-view|cross-alg,11.509575222222223,10.21027916281571,12.6219180409722
+"W2 weeks 53-64 (official test, examined)",ladder_ratio|same-view|cross-alg,2.643460529239395,2.2367123026830704,3.247791416003573
+"W2 weeks 53-64 (official test, examined)",ladder_J|same-view|cross-alg,18.831388888888885,15.147774757482992,22.96488807617003
+"W2 weeks 53-64 (official test, examined)",ladder_cov|cross-view|cross-alg,5.948639027777778,5.0306788994060305,6.61375203607942
+"W2 weeks 53-64 (official test, examined)",ladder_ratio|cross-view|cross-alg,1.8334448748746368,1.5819906705127151,2.246733186430519
+"W2 weeks 53-64 (official test, examined)",ladder_J|cross-view|cross-alg,13.247777777777777,10.454165618987005,16.5936724667908

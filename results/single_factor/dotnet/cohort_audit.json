@@ -1,0 +1,95 @@
+{
+ "format": "dotnet",
+ "lines_total": 640000,
+ "unique_total": 319953,
+ "exact_repeats_removed": 320047,
+ "fraction_submission_date_in_member_range": 0.9971236717674934,
+ "week_minus_week_id_counts": {
+  "1": 289953
+ },
+ "test_sha_overlap_with_training_archive_excluded": 0,
+ "test_sha_overlap_after_exclusion": 0,
+ "sha256_prefix_audit": {
+  "train_label0": {
+   "n": 100000,
+   "ks_uniform_stat": 0.051778786450699,
+   "ks_uniform_p": 1.8844748418839961e-233,
+   "retained_at_0.2": 0.23276,
+   "retained_at_0.25": 0.28857,
+   "retained_at_0.4": 0.44969,
+   "retained_at_0.5": 0.55122
+  },
+  "train_label1": {
+   "n": 100000,
+   "ks_uniform_stat": 0.025954916456937815,
+   "ks_uniform_p": 5.911772544528731e-59,
+   "retained_at_0.2": 0.21338,
+   "retained_at_0.25": 0.26583,
+   "retained_at_0.4": 0.42354,
+   "retained_at_0.5": 0.52487
+  },
+  "validation_label0": {
+   "n": 15000,
+   "ks_uniform_stat": 0.03796829516949751,
+   "ks_uniform_p": 3.1771134044356723e-19,
+   "retained_at_0.2": 0.22313333333333332,
+   "retained_at_0.25": 0.27653333333333335,
+   "retained_at_0.4": 0.43553333333333333,
+   "retained_at_0.5": 0.5344
+  },
+  "validation_label1": {
+   "n": 15000,
+   "ks_uniform_stat": 0.01683533201751608,
+   "ks_uniform_p": 0.0004010842435747343,
+   "retained_at_0.2": 0.2062,
+   "retained_at_0.25": 0.2546,
+   "retained_at_0.4": 0.4116,
+   "retained_at_0.5": 0.516
+  },
+  "test_label0": {
+   "n": 29953,
+   "ks_uniform_stat": 0.03692383877776784,
+   "ks_uniform_p": 6.445563116480716e-36,
+   "retained_at_0.2": 0.22401762761659935,
+   "retained_at_0.25": 0.2802056555269923,
+   "retained_at_0.4": 0.4331786465462558,
+   "retained_at_0.5": 0.5358728674924048
+  },
+  "test_label1": {
+   "n": 30000,
+   "ks_uniform_stat": 0.020840570329750563,
+   "ks_uniform_p": 9.470556417772448e-12,
+   "retained_at_0.2": 0.20973333333333333,
+   "retained_at_0.25": 0.2623333333333333,
+   "retained_at_0.4": 0.4187,
+   "retained_at_0.5": 0.5178666666666667
+  }
+ },
+ "labels": {
+  "1": 145000,
+  "0": 144953
+ },
+ "file_types": {
+  "Dot_Net": 289953
+ },
+ "per_split": {
+  "train": {
+   "files": 200000,
+   "malware": 100000,
+   "benign": 100000,
+   "malware_without_family": 21495
+  },
+  "validation": {
+   "files": 30000,
+   "malware": 15000,
+   "benign": 15000,
+   "malware_without_family": 3360
+  },
+  "test": {
+   "files": 59953,
+   "malware": 30000,
+   "benign": 29953,
+   "malware_without_family": 4815
+  }
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "description": "Explicit column membership of the two feature views in the 2568-column EMBER feature-version-3 vector (thrember extractor order). Ranges are inclusive. Copied from the final SENTRA definition (src/sentra/data/dataset.py, SEMANTIC_VIEWS) and verified at run time against the extractor's group order and dimensions.",
+ "source_sha256": "883ee7d1c2d6e3b1ae33cdb8482178e35773b52c03ad88c3ee5acf652bf391db",
+ "extractor_groups": [
+  [
+   "general",
+   7
+  ],
+  [
+   "histogram",
+   256
+  ],
+  [
+   "byteentropy",
+   256
+  ],
+  [
+   "strings",
+   177
+  ],
+  [
+   "header",
+   74
+  ],
+  [
+   "section",
+   224
+  ],
+  [
+   "imports",
+   1282
+  ],
+  [
+   "exports",
+   129
+  ],
+  [
+   "datadirectories",
+   34
+  ],
+  [
+   "richheader",
+   33
+  ],
+  [
+   "authenticode",
+   8
+  ],
+  [
+   "pefilewarnings",
+   88
+  ]
+ ],
+ "structural": {
+  "groups": [
+   "header",
+   "section",
+   "imports",
+   "exports",
+   "datadirectories",
+   "richheader",
+   "authenticode",
+   "pefilewarnings"
+  ],
+  "column_ranges": [
+   [
+    696,
+    2567
+   ]
+  ],
+  "n_columns": 1872
+ },
+ "content": {
+  "groups": [
+   "general",
+   "histogram",
+   "byteentropy",
+   "strings"
+  ],
+  "column_ranges": [
+   [
+    0,
+    695
+   ]
+  ],
+  "n_columns": 696
+ }
+}

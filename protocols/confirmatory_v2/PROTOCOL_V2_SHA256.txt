@@ -1,0 +1,3 @@
+CONFIRMATORY_PROTOCOL_V2_WIN64_W47_52.md sha256=b39c180daf41e40fc152af0ba8174a8e4b9d60270b4c28da88261ea9fff7b942
+train_win64_lgbm_pool.py sha256=61a8edeb551877c23f624cdb6a2868d03e049f4e5e5d863f865a1b8bb4a8aaad
+recorded=2026-11-25T10:29:01+01:00 status=frozen text, not authorised for execution

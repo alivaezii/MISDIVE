@@ -1,0 +1,1 @@
+CONFIRMATORY_PROTOCOL_WIN64_W47_52.md  sha256=9bd6d54f6e754beb9ca4267ad514d3584c91d911b1c8553a88a67d8365751036  recorded=2026-11-25T10:18:53+01:00  status=frozen text, not authorised for execution

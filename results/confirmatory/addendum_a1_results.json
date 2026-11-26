@@ -1,0 +1,95 @@
+{
+ "label": "CONFIRMATORY weeks 47-52",
+ "classification": {
+  "H1": true,
+  "H2": true,
+  "H3": false,
+  "H4": true,
+  "AB2_robustness_established": {
+   "G": true,
+   "I": true
+  },
+  "AB2_meets_MEI_separately": {
+   "V": true,
+   "G": false,
+   "I": true
+  },
+  "H5": {
+   "estimate": 3.413195333333333,
+   "ci95": [
+    2.204320242726702,
+    5.026218461277057
+   ],
+   "supported": true,
+   "ruled_out": false
+  },
+  "outcome_class": "FULL SUCCESS",
+  "frozen_go_rule_label": "GO: two-factor attribution replicated"
+ },
+ "S_C3_seed_level_sensitivity": {
+  "0.005": {
+   "max_FL_seed_fnr_pct": 4.636666666666667,
+   "FL_seed_fnr_pct": [
+    4.359999999999998,
+    4.203333333333337,
+    4.636666666666667
+   ],
+   "min_individual_view_restricted_pairing_fnr_pct": 4.020000000000001,
+   "n_individual_pairings": 48,
+   "statistic_pp": 0.6166666666666654,
+   "ci95": [
+    -0.45419731615464753,
+    2.7612039405061055
+   ],
+   "pass_upper_le_0": false
+  },
+  "0.01": {
+   "max_FL_seed_fnr_pct": 2.3366666666666647,
+   "FL_seed_fnr_pct": [
+    2.300000000000002,
+    2.103333333333335,
+    2.3366666666666647
+   ],
+   "min_individual_view_restricted_pairing_fnr_pct": 2.3700000000000054,
+   "n_individual_pairings": 48,
+   "statistic_pp": -0.033333333333340764,
+   "ci95": [
+    -0.31716974684038,
+    0.3400183725081473
+   ],
+   "pass_upper_le_0": false
+  },
+  "0.02": {
+   "max_FL_seed_fnr_pct": 1.2633333333333385,
+   "FL_seed_fnr_pct": [
+    1.2633333333333385,
+    1.2433333333333296,
+    1.2266666666666648
+   ],
+   "min_individual_view_restricted_pairing_fnr_pct": 1.4066666666666672,
+   "n_individual_pairings": 48,
+   "statistic_pp": -0.14333333333332865,
+   "ci95": [
+    -0.2532755431292538,
+    -0.023629098611811266
+   ],
+   "pass_upper_le_0": true
+  }
+ },
+ "IH2_relabelled": {
+  "IH2 LS+LS minus mean single-detector baseline (LS)": {
+   "diff_pp": -0.12666666666666337,
+   "ci95": [
+    -0.20579031493609487,
+    -0.07703785506403737
+   ]
+  },
+  "IH2 MS+MS minus mean single-detector baseline (MS)": {
+   "diff_pp": -0.5222222222222239,
+   "ci95": [
+    -0.9593663926397603,
+    -0.27342660148258296
+   ]
+  }
+ }
+}

@@ -1,0 +1,37 @@
+window,detector,fnr_pct,fpr_pct
+V weeks 41-46 (validation),MS_42,33.56,0.5
+V weeks 41-46 (validation),MC_42,40.57333333333333,0.5
+V weeks 41-46 (validation),LS_42,22.413333333333334,0.5
+V weeks 41-46 (validation),LC_42,21.46,0.5
+V weeks 41-46 (validation),MS_123,33.36666666666667,0.5
+V weeks 41-46 (validation),MC_123,43.24666666666667,0.5
+V weeks 41-46 (validation),LS_123,21.573333333333334,0.5
+V weeks 41-46 (validation),LC_123,21.706666666666667,0.5
+V weeks 41-46 (validation),MS_2026,32.97333333333333,0.5
+V weeks 41-46 (validation),MC_2026,43.32666666666667,0.5
+V weeks 41-46 (validation),LS_2026,22.35333333333333,0.5
+V weeks 41-46 (validation),LC_2026,21.086666666666666,0.5
+"W1 weeks 47-52 (dev test, examined)",MS_42,35.21333333333334,0.42
+"W1 weeks 47-52 (dev test, examined)",MC_42,44.61333333333333,0.32
+"W1 weeks 47-52 (dev test, examined)",LS_42,24.026666666666667,0.23333333333333336
+"W1 weeks 47-52 (dev test, examined)",LC_42,24.96666666666667,0.33333333333333337
+"W1 weeks 47-52 (dev test, examined)",MS_123,36.53333333333333,0.44
+"W1 weeks 47-52 (dev test, examined)",MC_123,46.6,0.4333333333333333
+"W1 weeks 47-52 (dev test, examined)",LS_123,22.3,0.2733333333333333
+"W1 weeks 47-52 (dev test, examined)",LC_123,25.846666666666668,0.2866666666666667
+"W1 weeks 47-52 (dev test, examined)",MS_2026,37.059999999999995,0.46666666666666673
+"W1 weeks 47-52 (dev test, examined)",MC_2026,46.24666666666667,0.36666666666666664
+"W1 weeks 47-52 (dev test, examined)",LS_2026,23.613333333333333,0.22666666666666668
+"W1 weeks 47-52 (dev test, examined)",LC_2026,25.046666666666667,0.3066666666666667
+"W2 weeks 53-64 (official test, examined)",MS_42,29.436666666666667,0.4306747237338497
+"W2 weeks 53-64 (official test, examined)",MC_42,39.09,0.37391913998597803
+"W2 weeks 53-64 (official test, examined)",LS_42,20.993333333333332,0.30714786498848196
+"W2 weeks 53-64 (official test, examined)",LC_42,20.84,0.3639034487363536
+"W2 weeks 53-64 (official test, examined)",MS_123,30.11666666666667,0.4306747237338497
+"W2 weeks 53-64 (official test, examined)",MC_123,41.05333333333333,0.37058057623610324
+"W2 weeks 53-64 (official test, examined)",LS_123,19.94333333333333,0.3171635562381063
+"W2 weeks 53-64 (official test, examined)",LC_123,21.73333333333333,0.3538877574867292
+"W2 weeks 53-64 (official test, examined)",MS_2026,30.583333333333336,0.3371949387373552
+"W2 weeks 53-64 (official test, examined)",MC_2026,40.736666666666665,0.3138249924882316
+"W2 weeks 53-64 (official test, examined)",LS_2026,20.723333333333333,0.29045504623910795
+"W2 weeks 53-64 (official test, examined)",LC_2026,20.48,0.3805962674857276

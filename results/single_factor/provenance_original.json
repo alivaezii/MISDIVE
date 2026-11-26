@@ -1,0 +1,59 @@
+{
+ "description": "Original timestamped evaluations of the official test weeks in the SENTRA project (read-only reference). Values are copied verbatim; file digests allow verification.",
+ "original_project_root": "<private original project root (redacted)>",
+ "dotnet": {
+  "protocol_frozen_at": "2026-11-24T17:10:34+0100",
+  "scored_at": "2026-11-24T17:14:11+0100",
+  "protocol_file": "confirm_view/protocol_official.json",
+  "protocol_sha256": "a79f8179ccf78ba8c27cb0b5f10ca4f7e342fa46ecbc6aeec0b557343b0ecad5",
+  "result_file": "confirm_view/official/official_result.json",
+  "result_sha256": "3e888b0236640727ccf87fc641322fcb286bd196ecfd7a4da0d3c1743af6c3b9",
+  "training_cohort": "Phase 0 INDEP_semantic checkpoints: deterministic 50% SHA256 subsample of weeks 1-40 (100,320 files); early stopping on weeks 41-46",
+  "test_files": 59953,
+  "test_malware": 30000,
+  "test_benign": 29953,
+  "contrast_pp": 11.902834851851852,
+  "ci95_pp": [
+   9.727908944090206,
+   13.784334895511469
+  ],
+  "weeks_positive": 12,
+  "per_seed_pair_pp": {
+   "42-123": 11.772123555555552,
+   "42-2026": 12.25826577777778,
+   "123-2026": 11.678115222222225
+  }
+ },
+ "win64": {
+  "protocol_frozen_at": "2026-11-24T18:53:04+0100",
+  "scored_at": "2026-11-24T18:57:58+0100",
+  "protocol_file": "win64/protocol_win64.json",
+  "protocol_sha256": "2a33a2d56a33643a466de8620bb98ed88d485725cdc769961350fbd1ffd1cc80",
+  "result_file": "win64/official/result.json",
+  "result_sha256": "bdc3e2357902fa32165a12cbf90b85432e84fbca5576862c6ea85a2dcc12963d",
+  "training_cohort": "SHA256-prefix rule (prefix/2^32 < 0.20 for weeks 1-40, < 0.40 for weeks 41-46 and 53-64); realised retention differed by class",
+  "train_files": 103902,
+  "validation_files": 31080,
+  "test_files": 65372,
+  "test_malware": 25282,
+  "test_benign": 40090,
+  "contrast_pp": 7.9736050024030485,
+  "ci95_pp": [
+   6.163616077974439,
+   8.913705771168074
+  ],
+  "weeks_positive": 12,
+  "per_seed_pair_pp": {
+   "42-123": 7.671787058059762,
+   "42-2026": 8.299189117954285,
+   "123-2026": 7.949838831195098
+  }
+ },
+ "exploratory_records": {
+  "phase0_report": "reports/SENTRA_Phase0_Scientific_Report.md",
+  "pilot_2b": "phase0b/PILOT2B_REPORT_FA.md",
+  "pilot_2c": "phase0b/PILOT2C_REPORT_FA.md",
+  "experiment_b": "experiment_b/EXPERIMENT_B_REPORT_FA.md",
+  "reranker": "phase0b/PILOT_RERANKER_REPORT_FA.md"
+ }
+}

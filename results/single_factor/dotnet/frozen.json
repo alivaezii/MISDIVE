@@ -1,0 +1,41 @@
+{
+ "frozen_at": "2026-11-24T19:42:56+0100",
+ "protocol_sha256": "d2ba306889e06da5436e5ed430d9bf9c2911f97c2781e7e65b823fa1e905cbd6",
+ "feature_views_sha256": "69faa07e6e2ad0ae51b672dd2bd4550257de0cfe53d39c399d108a6968308564",
+ "preprocessor_sha256": "2de7034ffaff7dcd672b9d3ed8e13019ca47d62a854967d6a009cdced95ce84e",
+ "models_sha256": {
+  "42": "e0edc7104c797adc7c4703ebf4241e62ba3d302b49181fe5d591813f7cb88656",
+  "123": "4a71025e845bb0413b786bc1e3fac5e6aa23b56c45958852babf2b1cb2ce25a2",
+  "2026": "bcf62797d6f5a0137f053e763c75191e4d6aff9be52f5713c937ad8f7368040b"
+ },
+ "thresholds": {
+  "S_42": 4.199007034301758,
+  "C_42": 6.0461320877075195,
+  "S_123": 3.710718870162964,
+  "C_123": 4.72882604598999,
+  "S_2026": 4.162179470062256,
+  "C_2026": 7.03015661239624
+ },
+ "training": {
+  "42": {
+   "best_epoch": 11,
+   "best_val_or_tpr_at_1pct": 0.8320666666666666,
+   "epochs_run": 17,
+   "train_seconds": 112.1351010799408
+  },
+  "123": {
+   "best_epoch": 6,
+   "best_val_or_tpr_at_1pct": 0.8650666666666667,
+   "epochs_run": 12,
+   "train_seconds": 86.38959693908691
+  },
+  "2026": {
+   "best_epoch": 12,
+   "best_val_or_tpr_at_1pct": 0.8520666666666666,
+   "epochs_run": 18,
+   "train_seconds": 144.33504962921143
+  }
+ },
+ "validation_benign": 15000,
+ "validation_malware": 15000
+}
